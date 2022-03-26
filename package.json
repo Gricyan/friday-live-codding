@@ -1,0 +1,20 @@
+{
+  "name": "friday-live-coding",
+  "version": "1.0.0",
+  "description": "## links",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch scss/style.scss scss/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gricyan/friday-live-codding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gricyan/friday-live-codding/issues"
+  },
+  "homepage": "https://github.com/Gricyan/friday-live-codding#readme"
+}

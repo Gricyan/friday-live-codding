@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friday Live Coding</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="scss/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -14,14 +14,14 @@
 
 <body>
   <header class="header">
-    <div class="wrapper">
-      <a href="#">Logo</a>
+    <div class="wrapper header__wrapper">
+      <a href="#"><img src="assets/img/icons/logo.svg" alt="Productly LCC"></a>
       <nav class="header__navigation">
         <ul class="navigation">
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
-          <li>Home</li>
+          <li class="navigation__link">Home</li>
+          <li class="navigation__link">Services</li>
+          <li class="navigation__link">About</li>
+          <li class="navigation__link">Product</li>
         </ul>
       </nav>
       <div class="header__buttons">
@@ -31,7 +31,7 @@
     </div>
   </header>
   <section class="promo">
-    <div class="wrapper">
+    <div class="wrapper promo__wrapper">
       <div class="promo__content">
         <h1>The Design Thinking superpowers</h1>
         <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
@@ -42,6 +42,7 @@
           </a>
         </div>
       </div>
+      <img src="assets/img/promo/promo-img.svg" alt="promo image">
     </div>
   </section>
   <section class="tools">
