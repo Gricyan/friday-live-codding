@@ -27,3 +27,14 @@ npm run style
 npm run style
 
 <!-- --watch - auto saving of every changes -->
+
+### lesson 3 - https://www.youtube.com/watch?v=fooyYgIuZe8
+
+#### add normalize-scss
+https://www.npmjs.com/package/normalize-scss
+
+npm install --save normalize-scss
+
+add to scss:
+@import "../node_modules/normalize-scss/sass/normalize";
+@include normalize();

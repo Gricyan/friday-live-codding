@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Gricyan/friday-live-codding/issues"
   },
-  "homepage": "https://github.com/Gricyan/friday-live-codding#readme"
+  "homepage": "https://github.com/Gricyan/friday-live-codding#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
