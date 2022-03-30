@@ -6,21 +6,20 @@
 .contact-us__content {
   @include font(16px, 26px, normal);
   color: $color-text;
+  & .ico {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: $color-light;
+  }
 }
 
 .contact-us__content p {
   display: flex;
   align-items: center;
-}
-
-.ico {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  background-color: $color-light;
 }
 
 .ico_phone {

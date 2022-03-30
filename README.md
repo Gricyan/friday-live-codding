@@ -5,6 +5,7 @@
 ## lesson 1 - https://www.youtube.com/watch?v=ZAde-IJAHzo
 ## Template
 https://www.figma.com/file/Z7b86A3OdV6kAgoeZBPOZ7/Template-1?node-id=0%3A2
+https://www.figma.com/file/fw0GA18nmpVjTBzjtiEK2L/Friday_Live_Coding?node-id=0%3A1
 
 ## lesson 2 - https://www.youtube.com/watch?v=BJENQIX2e2o
 ### SVG and Fonts
@@ -38,3 +39,5 @@ npm install --save normalize-scss
 add to scss:
 @import "../node_modules/normalize-scss/sass/normalize";
 @include normalize();
+
+### lesson 4 - https://www.youtube.com/watch?v=Qk2UGlFNKPE
