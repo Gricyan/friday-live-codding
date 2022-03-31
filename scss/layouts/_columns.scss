@@ -1,25 +1,16 @@
 .layout-4-column {
-  @include columns(21%)
+  @include columns(21%);
 }
 
 .layout-3-column {
-  @include columns(30%)
+  @include columns($width: 30%);
+  &:after {
+    content: '';
+    width: 30%;
+    display: block;
+  }
 }
 
 .layout-2-column {
-  @include columns($width: 48%)
-}
-
-.layout-2-1-column {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.wide-layout-item {
-  width: 787px;
-}
-
-.narrow-layout-item {
-  width: 377px;
+  @include columns($width: 48%);
 }

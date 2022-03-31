@@ -33,11 +33,6 @@
   }
 }
 
-.promo__buttons {
-  display: flex;
-  align-items: center;
-}
-
 .link-button {
   color: $color-primary;
   @extend %font-add;

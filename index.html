@@ -15,12 +15,17 @@
 <body>
   <header class="header">
     <div class="wrapper header__wrapper">
-      <!-- <a href="#"><img src="assets/img/icons/logo.svg" alt="Productly LCC"></a> -->
-      <a href="#">
-        <object type="image/svg+xml" data="./assets/img/logo.svg" class="logo-object">
+      <div class="header__logo-line">
+        <span class="hamburger">
+          <span class="hamburger__line"></span>
+        </span>
+        <!-- <a href="#"><img src="assets/img/icons/logo.svg" alt="Productly LCC"></a> -->
+        <a href="#" class="logo">
+          <object type="image/svg+xml" data="./assets/img/logo.svg" class="logo-object">
           Your browser does not support SVG
        </object>
-      </a>
+        </a>
+      </div>
 
       <nav class="header__navigation">
         <ul class="navigation">
@@ -48,21 +53,21 @@
           </a>
         </div>
       </div>
-      <img src="assets/img/promo/promo-img.svg" alt="promo image">
+      <img class="promo__image" src="assets/img/promo/promo-img.svg" alt="promo image">
     </div>
   </section>
   <section class="tools">
     <div class="wrapper tools__wrapper">
       <h2 class="tools__title">We design tools to unveil your superpowers</h2>
-      <div class="layout-4-column">
+      <div class="layout-4-column tools__container">
         <div class="tool">
           <div class="tool__icon">
             <span class="icon-square icon-square_violet">
               <span class="ico ico-arrow"></span>
             </span>
           </div>
-          <h4>First click tests</h4>
-          <p>While most people enjoy casino gambling</p>
+          <h4 class="tool__title">First click tests</h4>
+          <p class="tool__text">While most people enjoy casino gambling</p>
         </div>
         <div class="tool">
           <div class="tool__icon">
@@ -79,8 +84,8 @@
               <span class="ico ico-heart"></span>
             </span>
           </div>
-          <h4>Preference tests</h4>
-          <p>The Myspace page defines the individual.</p>
+          <h4 class="tool__title">Preference tests</h4>
+          <p class="tool__text">The Myspace page defines the individual.</p>
         </div>
         <div class="tool">
           <div class="tool__icon">
@@ -88,8 +93,8 @@
               <span class="ico ico-time"></span>
             </span>
           </div>
-          <h4>Five second tests</h4>
-          <p>Personal choices and the overall personality of the person</p>
+          <h4 class="tool__title">Five second tests</h4>
+          <p class="tool__text">Personal choices and the overall personality of the person</p>
         </div>
       </div>
       <div class="tools__button">
@@ -99,9 +104,9 @@
   </section>
   <section class="strategies">
     <div class="wrapper">
-      <h2 class="strategies__title">Marketing Strategies</h2>
+      <h2 class="strategies__title">Marketing strategies</h2>
       <p class="strategies__description">Join 40,000+ other marketers and get proven strategies on email marketing</p>
-      <div class="strategies__tags">
+      <div class="strategies__tags tags">
         <span class="tag tag_selected">All</span>
         <span class="tag tag_bordered">Art</span>
         <span class="tag tag_bordered">Culture</span>
@@ -109,88 +114,52 @@
       </div>
       <div class="layout-3-column strategy-wrapper">
         <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic1.jpg" alt="strategy">
+          <img class="strategy__image" src="assets/img/strategies/pic1.jpg" alt="strategy">
           <div class="strategy__content">
             <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
-            <div class="strategies__tags">
-              <span class="tag tag_selected">All</span>
+            <div class="strategy__tags tags">
               <span class="tag tag_colored">Art</span>
+              <span class="tag tag_colored">Design</span>
             </div>
           </div>
         </article>
         <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic2.jpg" alt="strategy">
+          <img class="strategy__image" src="assets/img/strategies/pic2.jpg" alt="strategy">
           <div class="strategy__content">
             <h3 class="strategy__name">Motivation Is The First Step To Success</h3>
-            <div class="strategies__tags">
+            <div class="strategy__tags tags">
               <span class="tag tag_colored">Culture</span>
             </div>
           </div>
         </article>
         <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic3.jpg" alt="strategy">
+          <img class="strategy__image" src="assets/img/strategies/pic3.jpg" alt="strategy">
           <div class="strategy__content">
             <h3 class="strategy__name">Success Steps For Your Personal Or Business Life</h3>
-            <div class="strategies__tags">
+            <div class="strategy__tags tags">
               <span class="tag tag_colored">Culture</span>
               <span class="tag tag_colored">Design</span>
               <span class="tag tag_colored">Art</span>
             </div>
           </div>
         </article>
-      </div>
-
-      <div class="layout-2-1-column">
-        <article class="strategy block-shadowed wide-layout-item">
-          <img src="assets/img/strategies/pic4.jpg" alt="strategy">
+        <article class="strategy strategy_wide block-shadowed">
+          <img class="strategy__image" src="assets/img/strategies/pic4.jpg" alt="strategy">
           <div class="strategy__content">
             <h3 class="strategy__name">Success Steps For Your Personal Or Business Life Plus Funny Image on the Back</h3>
-            <div class="strategies__tags">
+            <div class="strategy__tags tags">
               <span class="tag tag_colored">Culture</span>
               <span class="tag tag_colored">Design</span>
               <span class="tag tag_colored">Art</span>
             </div>
           </div>
         </article>
-        <article class="strategy block-shadowed narrow-layout-item">
-          <img src="assets/img/strategies/pic5.jpg" alt="strategy">
+        <article class="strategy block-shadowed">
+          <img class="strategy__image" src="assets/img/strategies/pic5.jpg" alt="strategy">
           <div class="strategy__content">
             <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
-            <div class="strategies__tags">
+            <div class="strategy__tags tags">
               <span class="tag tag_colored">Design</span>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="layout-3-column strategy-wrapper">
-        <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic1.jpg" alt="strategy">
-          <div class="strategy__content">
-            <h3 class="strategy__name">Increasing Prosperity With Positive Thinking</h3>
-            <div class="strategies__tags">
-              <span class="tag tag_colored">Art</span>
-              <span class="tag tag_colored">Design</span>
-            </div>
-          </div>
-        </article>
-        <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic2.jpg" alt="strategy">
-          <div class="strategy__content">
-            <h3 class="strategy__name">Motivation Is The First Step To Success</h3>
-            <div class="strategies__tags">
-              <span class="tag tag_colored">Culture</span>
-            </div>
-          </div>
-        </article>
-        <article class="strategy block-shadowed">
-          <img src="assets/img/strategies/pic3.jpg" alt="strategy">
-          <div class="strategy__content">
-            <h3 class="strategy__name">Success Steps For Your Personal Or Business Life</h3>
-            <div class="strategies__tags">
-              <span class="tag tag_colored">Culture</span>
-              <span class="tag tag_colored">Design</span>
-              <span class="tag tag_colored">Art</span>
             </div>
           </div>
         </article>
@@ -232,8 +201,8 @@
   </section>
   <section class="contact-us">
     <div class="wrapper">
-      <h2>Contact Us</h2>
-      <div class="layout-2-column contact-us__line">
+      <h2 class="contact-us__title">Contact Us</h2>
+      <div class="layout-2-column contact-us__container">
         <div class="contact-us__content">
           <p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It also shouldn’t be their last, because first impressions count online just as much as they do in the real world. If your visitors aren’t
             impressed, you can expect them to leave without reading your awesome content or completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
@@ -242,7 +211,7 @@
         </div>
         <div class="contact-us__form">
           <form action="" method="post">
-            <div class="layout-2-column">
+            <div class="layout-2-column contact-us__line">
               <input type="text" name="name" placeholder="Name">
               <input type="email" name="email" placeholder="Email">
             </div>
@@ -259,8 +228,8 @@
     <div class="wrapper footer__wrapper">
       <a href="#" class="logo">
         <object type="image/svg+xml" data="./assets/img/logo.svg" class="logo-object">
-          Your browser does not support SVG
-       </object>
+        Your browser does not support SVG
+        </object>
       </a>
 
       <div class="footer-navigation layout-3-column">

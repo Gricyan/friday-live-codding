@@ -1,5 +1,8 @@
 .footer {
   padding: 60px 0 70px;
+  @include media-mobile {
+    padding: 30px 0;
+  }
 }
 
 .footer__wrapper {
@@ -8,11 +11,21 @@
     list-style-type: none;
     padding-inline-start: 0;
   }
+  @include media-tablet {
+    flex-direction: column;
+  }
 }
 
 .footer-navigation {
   flex-grow: 1;
   padding-left: 152px;
+  @include media-tablet {
+    margin-top: 34px;
+    padding-left: 0;
+  }
+  @include media-mobile {
+    flex-direction: column;
+  }
 }
 
 .footer-navigation__title {
